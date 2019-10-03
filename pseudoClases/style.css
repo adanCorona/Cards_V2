@@ -14,6 +14,11 @@ body > div{
     border-radius: 30px;
     margin: 10px;
     float: left;
+
+}
+
+body > div:hover {
+       background: #333;
 }
 
 div > img {
