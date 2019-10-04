@@ -1,0 +1,41 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(114, 114, 114);
+
+}
+
+.container {
+    margin: 20px;
+    width: 300px;
+    background: #eee;
+ }
+ .container li {
+    list-style: none;
+    padding: 10px;
+    padding-left: 20px;
+    width: 290px;
+    font-size: 16px;
+ }
+ .container li:hover {
+    background: #fff;
+    border: 1px solid #333;
+    border-top-right-radius: 18px;
+    border-bottom-right-radius: 18px;
+ }
+ .container li > i {
+    width: 20px;
+    text-align: center;
+    margin-right: 10px;
+ }
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
