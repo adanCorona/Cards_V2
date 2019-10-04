@@ -1,0 +1,155 @@
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+ }
+
+ body {
+     /* background: #B271FF; */
+     background-image: url(fondo_contacto_1.png);
+     background-size: cover;
+     
+     /* align: center; */
+  
+ }
+
+#card {
+    width: 400px;
+    height: 600px;
+    background: white;
+    border-radius: 30px;
+    box-shadow: 0px 10px 20px black;
+    /* position: absolute; */
+    /* left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%); */
+    margin: auto;
+    margin-top: 100px;
+    
+    
+    /* display:inline-block; */
+    
+    
+}
+
+
+h1 {
+    font-family: arial;
+    font-size: 36px;
+    text-align: center;
+    margin-top: 55px;
+    background: -webkit-linear-gradient(45deg,#631DCF, rgb(68, 135, 235));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#nombre {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    text-align: center;
+    color: rgb(175, 175, 175);
+    margin-top: 40px;
+    font-weight: normal;
+}
+
+
+#ingresarNombre[type="text"] {
+    width: 300px;
+    height: 40px;
+    border-radius: 10px;
+    margin: auto;
+    display: block;
+    margin-top: 10px;
+    border: none;
+    background: rgb(242, 240, 247);
+    
+
+}
+
+#contraseña {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    text-align: center;
+    margin: auto;
+    margin-top:20px;
+    color: rgb(175, 175, 175);
+    font-weight: normal;
+}
+
+
+#ingresarContraseña[type="text"] {
+    width: 300px;
+    height: 40px;
+    border-radius: 10px;
+    margin: auto;
+    display: block;
+    margin-top: 10px;
+    border: none;
+    background: rgb(242, 240, 247);
+   
+
+}
+
+#logo {
+    width: 80px;
+    height: 80px;
+    margin:  auto;
+    margin-top: 20px;
+    display: block;
+    top: 30px;
+    position: relative;
+    /* clear: both; */
+    
+    
+    
+}
+
+button {
+    width: 300px;
+    height: 40px;
+    border-radius: 10px;
+    margin: auto;
+    display: block;
+    margin-top: 50px;
+    background: #5300E0;
+    font-family: arial;
+    font-size: 14px;
+    color: white;
+    box-shadow: 0px 6px 10px rgb(193, 157, 255);
+    border: none;
+    
+  
+}
+button:hover{
+    background: #3a009e;
+    box-shadow: 0px 6px 15px rgb(193, 157, 255);
+  
+    
+}
+p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 40px;
+
+}
+
+#cuerpo {
+    /* position: absolute; */
+    width: 100%;
+    height: 100%;
+    /* margin: auto; */
+
+
+}
+
+#crear_cuenta {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 25px;
+    color: #5300E0;
+
+}
